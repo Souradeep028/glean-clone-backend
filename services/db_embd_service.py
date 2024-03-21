@@ -2,9 +2,7 @@ import os
 from sentence_transformers import SentenceTransformer
 from pinecone import Pinecone
 import requests
-from dotenv import load_dotenv
 
-load_dotenv()
 
 API_KEY = os.getenv('PINECONE_API_KEY')
 owner = os.getenv("OWNER")
